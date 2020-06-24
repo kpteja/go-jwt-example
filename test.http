@@ -1,0 +1,19 @@
+### Host
+@host = http://localhost:8080
+
+### Access Token
+# @token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoia3B0ZWphQG91dGxvb2suY29tIiwiZXhwIjoxNTkyOTY5MTQxfQ.NUzTZR1G91v6f0xAj1p_kNTP4xeg5YUuNloOyBCw3JY
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoia3B0ZWphQG91dGxvb2suY29tIiwiZXhwIjoxNTkyOTcyOTE0fQ.RRGdS0KDakE4y6wu1JJjLkUV6Uo3qF1LqDr6_hzYpnQ
+
+
+### Todos
+GET {{host}}/todos
+Authorization: Bearer {{token}}
+
+
+
+### Login
+POST {{host}}/login
+Content-Type: application/x-www-form-urlencoded
+
+email=kpteja@outlook.com&password=cadbury
